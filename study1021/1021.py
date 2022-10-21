@@ -63,11 +63,9 @@
 # for i in my_list : # for 반복문
 #     print(i)
 
-# from ast import Num
-# from multiprocessing.sharedctypes import Value
-# import string
-# from tabnanny import check
-# from unittest import result
+from ast import Num
+import string
+from tabnanny import check
 
 # my_list = [1,2,3,4]
 
@@ -164,49 +162,9 @@
 # while True :
 #     check_data()
 
-# def sum_two_Num(n1, n2):
-#     return n1 + n2
+def sum_two_Num(n1, n2):
+    return n1 + n2
     
-# sum_num = sum_two_Num(1, 2)
-# # sum_num = 3 리턴을 해주기때문에 결국에는 같은 값이다.
-# print(sum_num)    
-
-
-# 논리 연상 and, or, not
-
-# print(True or False)
-
-# result = not (1 != 2) 
-# result = (x(true), y(flase))
-
-# print (result)
-
-# 집합과 딕셔너리
-
-# my_set = [1,2,3,4,5]
-# my_set = set([1,2,3,4,5])
-
-# print(my_set) 
-
-# for item in my_set :
-#     print(my_set)
-
-# 딕셔너리
-
-# my_dict = {"name" : "pdj", "age" : 23}
-
-# for key, Value in my_dict.items():
-#     print(f"{key}는 {Value} ")
-
-
-# 튜플
-
-# my_tuple = (1,2,3,4,5)
-
-# my_tuple = [1,2,3]
-
-# print(my_tuple)
-
-# for item in my_tuple:
-#     print(item)
-
+sum_num = sum_two_Num(1, 2)
+# sum_num = 3 리턴을 해주기때문에 결국에는 같은 값이다.
+print(sum_num)    
