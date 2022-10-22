@@ -104,17 +104,17 @@ temp = 1
 
 # yield
 
-def my_func():
-    while True:
-        yield 1
-        yield 2
-        yield 3
+# def my_func():
+#     while True:
+#         yield 1
+#         yield 2
+#         yield 3
 
 
-my_yield_data = my_func()
+# my_yield_data = my_func()
 
-for item in my_yield_data:
-    print(item)
+# for item in my_yield_data:
+#     print(item)
 
 # print(next(my_yield_data))
 # print(next(my_yield_data))
@@ -123,3 +123,10 @@ for item in my_yield_data:
 
 # yield (while)을 함께 사용하여 무한반복이 가능하다.
 # 데이터 또는 함수를 넣어서 원하는 횟수만큼 사용이 가능하다.
+
+
+def check_str(data: str):
+    return data.endswith("마")
+
+
+print(check_str("가나다"))
