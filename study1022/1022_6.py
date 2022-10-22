@@ -125,8 +125,8 @@ temp = 1
 # 데이터 또는 함수를 넣어서 원하는 횟수만큼 사용이 가능하다.
 
 
-def check_str(data: str):
-    return data.endswith("마")
+# def check_str(data: str):
+#     return data.endswith("마")
 
 
-print(check_str("가나다"))
+# print(check_str("가나다"))
