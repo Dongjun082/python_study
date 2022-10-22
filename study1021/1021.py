@@ -2,7 +2,7 @@
 
 # print (name)
 # 주석처리는 crtl + /
-# git init는 저장소 실행 명령어 
+# git init는 저장소 실행 명령어
 
 # print ("hello world")
 
@@ -11,7 +11,7 @@
 
 # 정수 처리
 
-# num = 
+# num =
 # num = 1 + 2 (3)
 # num = 2 / 3 # (0.6666666666666666) x 와 y 의 몫
 # num = 2 // 3 (0) 	x 와 y 의 정수로 내림한 몫
@@ -24,7 +24,7 @@
 # num = int(-1.7) 정수로 변환된 x
 # num = divmod(4, 2) # x 와 y 의 정수로 내림한 몫 과 x / y 의 나머지
 # num = pow (2,4) x 의 y 거듭제곱
-# num = 0.02 ** -9.5 
+# num = 0.02 ** -9.5
 
 # import math
 
@@ -40,7 +40,7 @@
 
 # print (num)
 
-#문자열 처리
+# 문자열 처리
 # name = "pdj"
 # age = 23
 
@@ -51,7 +51,6 @@
 
 # print("내 이름은 : %s" "내 나이는 : %d"% (name, age))
 # print(f"내 이름은 : {0}, 내 나이는 : {1}", format(n=name,a=age))
-
 
 
 # 리스트 처리
@@ -80,7 +79,7 @@ from tabnanny import check
 # char_list = string.split(' ') => 불변
 # split은 문자열 쪼개기
 
-# print(char_list) 
+# print(char_list)
 
 # change_string = string.replace('가', '나')
 
@@ -95,7 +94,7 @@ from tabnanny import check
 # 같은 데이터는 똑같이 취급을 해준 *숫자와 문자열에만 해당된다.
 # change
 
-# print(chain.string) 
+# print(chain.string)
 
 # myList 스네이크
 
@@ -113,14 +112,14 @@ from tabnanny import check
 # elif data == 2 :
 #     print("2다")
 # elif data == 3 :
-#     print("3다") 
+#     print("3다")
 # elif data == 4 :
-#     print("4다") 
+#     print("4다")
 # elif data == 5 :
-#     print("5다")     
+#     print("5다")
 # else:
 #     print("모르겠다")
-    
+
 # data = int(input())
 
 
@@ -130,41 +129,42 @@ from tabnanny import check
 # while x < 10:
 #     print("가나다")
 #     x = x + 1
-    
-    # if x >= 10:
-    #     break
-    # else:
-    #     x = x + 1
+
+# if x >= 10:
+#     break
+# else:
+#     x = x + 1
 # for 반복문
-    
+
 # for list in [1,2,3,4] :
 #     print(list)
-      
+
 # data = int(input())
-    
+
 # def check_data():
-#     print("가나다")         
+#     print("가나다")
 #     if check_data == 1 :
 #         print("1이다")
 #     elif check_data == 2 :
 #         print("2다")
 #     elif check_data == 3 :
-#         print("3다") 
+#         print("3다")
 #     elif check_data == 4 :
-#         print("4다") 
+#         print("4다")
 #     elif check_data == 5 :
-#         print("5다")     
+#         print("5다")
 #     else:
 #         print("모르겠다")
-                     
-# check_data()             
+
+# check_data()
 
 # while True :
 #     check_data()
 
-def sum_two_Num(n1, n2):
-    return n1 + n2
-    
-sum_num = sum_two_Num(1, 2)
-# sum_num = 3 리턴을 해주기때문에 결국에는 같은 값이다.
-print(sum_num)    
+# def sum_two_Num(n1, n2):
+#     return n1 + n2
+
+
+# sum_num = sum_two_Num(1, 2)
+# # sum_num = 3 리턴을 해주기때문에 결국에는 같은 값이다.
+# print(sum_num)
