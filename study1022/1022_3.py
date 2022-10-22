@@ -1,4 +1,4 @@
-# bool
+# bool (참과 거짓)
 
 from os import remove
 
@@ -80,7 +80,7 @@ temp = [
 # print(temp[0])
 # print(temp[1])
 
-
+# 튜플
 temp = [
     (1, 2),
     (3, 4)
