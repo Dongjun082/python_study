@@ -94,10 +94,12 @@
 # print(j)
 
 
-array = [149, 180, 192, 170], [180, 120, 140]
-height = [167, 190]
-
-
-def solution(array, height):
-    answer = 0
+def solution(age):
+    answer = age
+    if i in age():
+    i == 40:
+        print("1983")
+    else:
+        i == 23
+        print("2000")
     return answer
